@@ -1,3 +1,0 @@
-# GymCenter
-
-Lecture: Client - Server

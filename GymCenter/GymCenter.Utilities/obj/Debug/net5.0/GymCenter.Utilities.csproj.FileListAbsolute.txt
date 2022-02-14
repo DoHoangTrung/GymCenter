@@ -1,0 +1,12 @@
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\bin\Debug\net5.0\GymCenter.Utilities.deps.json
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\bin\Debug\net5.0\GymCenter.Utilities.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\bin\Debug\net5.0\ref\GymCenter.Utilities.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\bin\Debug\net5.0\GymCenter.Utilities.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.csproj.AssemblyReference.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.AssemblyInfoInputs.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.AssemblyInfo.cs
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\ref\GymCenter.Utilities.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.Utilities\obj\Debug\net5.0\GymCenter.Utilities.pdb

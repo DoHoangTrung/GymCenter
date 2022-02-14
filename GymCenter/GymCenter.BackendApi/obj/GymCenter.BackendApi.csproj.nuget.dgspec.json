@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.BackendApi\\GymCenter.BackendApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.BackendApi\\GymCenter.BackendApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.BackendApi\\GymCenter.BackendApi.csproj",
+        "projectName": "GymCenter.BackendApi",
+        "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.BackendApi\\GymCenter.BackendApi.csproj",
+        "packagesPath": "C:\\Users\\Trung Do Hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.BackendApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trung Do Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj": {
+                "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj"
+              },
+              "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\GymCenter.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\GymCenter.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj",
+        "projectName": "GymCenter.Data",
+        "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj",
+        "packagesPath": "C:\\Users\\Trung Do Hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trung Do Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\GymCenter.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\GymCenter.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\GymCenter.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\GymCenter.Utilities.csproj",
+        "projectName": "GymCenter.Utilities",
+        "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\GymCenter.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Trung Do Hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trung Do Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\GymCenter.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\GymCenter.ViewModel.csproj",
+        "projectName": "GymCenter.ViewModel",
+        "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\GymCenter.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Trung Do Hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trung Do Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
