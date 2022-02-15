@@ -1,0 +1,12 @@
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.ViewModel.deps.json
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.ViewModel.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\ref\GymCenter.ViewModel.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.ViewModel.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.csproj.AssemblyReference.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.AssemblyInfoInputs.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.AssemblyInfo.cs
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\ref\GymCenter.ViewModel.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.pdb
