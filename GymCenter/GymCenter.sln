@@ -5,11 +5,17 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymCenter.Data", "GymCenter.Data\GymCenter.Data.csproj", "{072720EF-00B9-456E-8F04-E859AFD4E363}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCenter.Utilities", "GymCenter.Utilities\GymCenter.Utilities.csproj", "{38A6492A-93C4-4CAA-AEAF-7A89B8B22752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymCenter.Utilities", "GymCenter.Utilities\GymCenter.Utilities.csproj", "{38A6492A-93C4-4CAA-AEAF-7A89B8B22752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCenter.ViewModel", "GymCenter.ViewModel\GymCenter.ViewModel.csproj", "{4A0DEA7A-1A0F-4799-A75E-EC292CC7ABA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymCenter.ViewModel", "GymCenter.ViewModel\GymCenter.ViewModel.csproj", "{4A0DEA7A-1A0F-4799-A75E-EC292CC7ABA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCenter.BackendApi", "GymCenter.BackendApi\GymCenter.BackendApi.csproj", "{ED44FC69-D67E-46F1-AD52-5B90546F993A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymCenter.BackendApi", "GymCenter.BackendApi\GymCenter.BackendApi.csproj", "{ED44FC69-D67E-46F1-AD52-5B90546F993A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrustructor", "1.Infrustructor", "{AFB142B1-F602-415A-98D5-04421AE27C29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Host", "2.Host", "{F02020EA-E575-4579-AA5E-875B94162E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCenter.Application", "GymCenter.Application\GymCenter.Application.csproj", "{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,20 @@ Global
 		{ED44FC69-D67E-46F1-AD52-5B90546F993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED44FC69-D67E-46F1-AD52-5B90546F993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED44FC69-D67E-46F1-AD52-5B90546F993A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{072720EF-00B9-456E-8F04-E859AFD4E363} = {AFB142B1-F602-415A-98D5-04421AE27C29}
+		{38A6492A-93C4-4CAA-AEAF-7A89B8B22752} = {AFB142B1-F602-415A-98D5-04421AE27C29}
+		{4A0DEA7A-1A0F-4799-A75E-EC292CC7ABA5} = {AFB142B1-F602-415A-98D5-04421AE27C29}
+		{ED44FC69-D67E-46F1-AD52-5B90546F993A} = {F02020EA-E575-4579-AA5E-875B94162E92}
+		{0DD5AEE6-DC9C-4750-B643-A3612DFAEF10} = {AFB142B1-F602-415A-98D5-04421AE27C29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4FE7EC36-4186-4248-884E-309195E3AA21}

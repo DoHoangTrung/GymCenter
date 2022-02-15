@@ -28,9 +28,6 @@ namespace GymCenter.ViewModel.System.Users
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
 
-        [DisplayName("Tên đăng nhập")]
-        public string UserName { get; set; }
-
         [DataType(DataType.Password)]
         [DisplayName("Mật khẩu")]
         //Default identity password role .net core(find it on gg)

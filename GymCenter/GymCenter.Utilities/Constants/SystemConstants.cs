@@ -9,5 +9,7 @@ namespace GymCenter.Utilities.Constants
     public static class SystemConstants
     {
         public const string GymConnectionString = "GymCenterConnection";
+
+        public const string BaseApiUrlString = "WebApiUrl";
     }
 }

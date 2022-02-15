@@ -15,4 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GymCenter.Utilities\GymCenter.Utilities.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
 </Project>

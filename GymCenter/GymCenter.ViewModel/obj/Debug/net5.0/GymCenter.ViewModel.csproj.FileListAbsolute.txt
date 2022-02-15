@@ -10,3 +10,8 @@ C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.dll
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\ref\GymCenter.ViewModel.dll
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.Data.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.Utilities.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.Data.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\bin\Debug\net5.0\GymCenter.Utilities.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.ViewModel\obj\Debug\net5.0\GymCenter.ViewModel.csproj.CopyComplete

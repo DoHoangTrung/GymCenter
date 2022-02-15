@@ -1524,6 +1524,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "GymCenter.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GymCenter.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GymCenter.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GymCenter.Application.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "GymCenter.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1553,6 +1569,9 @@
       "GymCenter.ViewModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GymCenter.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/GymCenter.ViewModel.dll": {}
         },
@@ -5669,6 +5688,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "GymCenter.Application/1.0.0": {
+      "type": "project",
+      "path": "../GymCenter.Application/GymCenter.Application.csproj",
+      "msbuildProject": "../GymCenter.Application/GymCenter.Application.csproj"
+    },
     "GymCenter.Data/1.0.0": {
       "type": "project",
       "path": "../GymCenter.Data/GymCenter.Data.csproj",
@@ -5687,6 +5711,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "GymCenter.Application >= 1.0.0",
       "GymCenter.Data >= 1.0.0",
       "GymCenter.ViewModel >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.14",
@@ -5720,6 +5745,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Application\\GymCenter.Application.csproj": {
+              "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Application\\GymCenter.Application.csproj"
+            },
             "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj": {
               "projectPath": "C:\\Users\\Trung Do Hoang\\Desktop\\Client-Server\\GymCenter\\GymCenter.Data\\GymCenter.Data.csproj"
             },
