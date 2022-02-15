@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "GymCenter.BackendApi/1.0.0": {
         "dependencies": {
+          "GymCenter.Application": "1.0.0",
           "GymCenter.Data": "1.0.0",
           "GymCenter.ViewModel": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.14",
@@ -1353,6 +1354,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "GymCenter.Application/1.0.0": {
+        "dependencies": {
+          "GymCenter.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "GymCenter.Application.dll": {}
+        },
+        "compile": {
+          "GymCenter.Application.dll": {}
+        }
+      },
       "GymCenter.Data/1.0.0": {
         "dependencies": {
           "GymCenter.Utilities": "1.0.0",
@@ -1376,6 +1388,9 @@
         }
       },
       "GymCenter.ViewModel/1.0.0": {
+        "dependencies": {
+          "GymCenter.Data": "1.0.0"
+        },
         "runtime": {
           "GymCenter.ViewModel.dll": {}
         },
@@ -3766,6 +3781,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "GymCenter.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GymCenter.Data/1.0.0": {
       "type": "project",

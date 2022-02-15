@@ -1,4 +1,5 @@
-﻿using GymCenter.Data.EF;
+﻿using GymCenter.Application.Common;
+using GymCenter.Data.EF;
 using GymCenter.Data.Entity;
 using GymCenter.Utilities.Constants;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -44,6 +45,7 @@ namespace GymCenter.BackendApi
 
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
+            services.AddTransient<IStorageService, FileStorageService > ();
 
 
             services.AddControllers();

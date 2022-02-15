@@ -1,10 +1,13 @@
 ﻿using GymCenter.Data.Entity;
+using GymCenter.Utilities;
 using GymCenter.Utilities.Constants;
+using GymCenter.ViewModel.Common;
 using GymCenter.ViewModel.System.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -83,7 +86,7 @@ namespace GymCenter.BackendApi.Controllers
         }
 
         //POST:api/users
-        /*[HttpPost]
+        [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -91,15 +94,7 @@ namespace GymCenter.BackendApi.Controllers
                 return BadRequest(ModelState);
 
             //check dupplicate user name and email
-            var userByName = await _userManager.FindByNameAsync(request.UserName);
             var userByEmail = await _userManager.FindByEmailAsync(request.Email);
-
-            if (userByName != null)
-            {
-                ModelState.AddModelError("", "Username already exists.");
-                return BadRequest(ModelState);
-            }
-
             if (userByEmail != null)
             {
                 ModelState.AddModelError("", "Email already exists.");
@@ -112,20 +107,108 @@ namespace GymCenter.BackendApi.Controllers
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                UserName = request.UserName,
-                PhoneNumber = request.PhoneNumber
+                PhoneNumber = request.PhoneNumber,
+                UserName = request.Email,
             };
 
             var result = await _userManager.CreateAsync(user, request.Password);
             if (result.Succeeded)
             {
                 //asign user role for new account
-                await _userManager.AddToRoleAsync(user, SystemConstants.AppRole.User);
-
-                return new ApiSuccessResult<bool>(true);
+                await _userManager.AddToRoleAsync(user, AppRoles.User);
+                return Ok();
             }
 
-            return new ApiErrorResult<bool>();
-        }*/
+            return BadRequest();
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null)
+            {
+                ModelState.AddModelError("", "User doesn't exist.");
+                return BadRequest(ModelState);
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+                return Ok();
+
+            ModelState.AddModelError("", "Delete failed.");
+            return BadRequest(ModelState);
+        }
+
+        //GET: api/users/id
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null)
+            {
+                ModelState.AddModelError("", "User doesn't exist.");
+                return BadRequest(ModelState);
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var userViewModel = new UserViewModel()
+            {
+                Id = user.Id,
+                Dob = user.Dob,
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                PhoneNumber = user.PhoneNumber,
+                Roles = roles,
+            };
+
+            return Ok(userViewModel);
+        }
+
+        //GET: api/users/paging?pageIndex=1&pageSize=10&keywords=abc
+        [HttpGet("paging")]
+        public async Task<IActionResult> GetAllPaging([FromQuery] GetUserPagingRequest request)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var query = _userManager.Users;
+
+            //filter
+            if (!string.IsNullOrEmpty(request.Keywords))
+            {
+                query = query.Where(u => u.UserName.Contains(request.Keywords)
+                    || u.PhoneNumber.Contains(request.Keywords));
+            }
+
+            //2.paging
+            int totalRow = await query.CountAsync();
+
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .Select(x => new UserViewModel()
+                {
+                    Id = x.Id,
+                    Dob = x.Dob,
+                    Email = x.Email,
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    PhoneNumber = x.PhoneNumber,
+                }).ToListAsync();
+
+            //4.select and projection
+            var pageResult = new PageResult<UserViewModel>()
+            {
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize,
+                TotalRecord = totalRow,
+                Items = data
+            };
+
+            return Ok(pageResult); ;
+        }
     }
 }

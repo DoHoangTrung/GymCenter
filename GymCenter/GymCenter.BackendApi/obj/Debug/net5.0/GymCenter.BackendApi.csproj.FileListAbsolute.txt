@@ -3,7 +3,6 @@ C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.AssemblyInfoInputs.cache
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.AssemblyInfo.cs
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.csproj.CoreCompileInputs.cache
-C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\bin\Debug\net5.0\appsettings.json
@@ -69,3 +68,6 @@ C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\ref\GymCenter.BackendApi.dll
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.pdb
 C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.genruntimeconfig.cache
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\bin\Debug\net5.0\GymCenter.Application.dll
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\bin\Debug\net5.0\GymCenter.Application.pdb
+C:\Users\Trung Do Hoang\Desktop\Client-Server\GymCenter\GymCenter.BackendApi\obj\Debug\net5.0\GymCenter.BackendApi.MvcApplicationPartsAssemblyInfo.cs
